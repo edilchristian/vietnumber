@@ -3,26 +3,9 @@ import { render } from 'react-dom'
 import ReadNumber from './ReadNumber'
 
 document.body.style.backgroundColor = 'rgb(240, 42, 187)'
-document.body.style.textAlign='center'
+document.body.style.textAlign = 'center'
+
 const styles = {
-  divcont: {
-    fontFamily: 'didot',
-    fontSize: '17px'
-  },
-  h1cont: {
-    fontFamily: 'times',
-    fontSize: '30px'
-  },
-  h2cont: {
-    color: 'red',
-    fontFamily: 'didot',
-    marginBottom: '60px'
-  },
-  h3cont: {
-    color: 'white',
-    fontFamily: 'didot',
-    fontWeight:'bold'
-  },
   overall: {
     marginTop: '120px',
     marginBottom: '30px',
@@ -31,7 +14,26 @@ const styles = {
   },
   stars: {
     fontSize: '17px'
-  }
+  },
+  
+  titlebar: {
+    fontFamily: 'times',
+    fontSize: '30px'
+  },
+  creatortag: {
+    color: 'red',
+    fontFamily: 'didot',
+    marginBottom: '60px'
+  },
+  explaining: {
+    fontFamily: 'didot',
+    fontSize: '17px'
+  },
+  bottombar: {
+    color: 'white',
+    fontFamily: 'didot',
+    fontWeight:'bold'
+  },
 }
 
 
@@ -42,22 +44,22 @@ const App = () => (
       <h3 style={styles.stars}>
          * * * * * * * * * * * * * * * * * * * *
       </h3>
-      <h1 style={styles.h1cont}>
+      <h1 style={styles.titlebar}>
          V I E T N U M B E R
       </h1>
       <h3 style={styles.stars}>
          * * * * * * * * * * * * * * * * * * * *
       </h3>
-      <h2 style={styles.h2cont}> 
+      <h2 style={styles.creatortag}> 
         Created by Edil
       </h2>
-      <div style={styles.divcont}>
-        <h2> Converting english numbers into Vietnamese words</h2>
-    <ReadNumber />
+      <div style={styles.explaining}>
+        <h2> Converting English numbers into Vietnamese words</h2>
+      <ReadNumber />
       </div>
     </div>
     
-    <div style={styles.h3cont}>  -for MyMy Hoang </div>
+    <div style={styles.bottombar}>  -for MyMy Hoang </div>
   </React.StrictMode>
 )
 
