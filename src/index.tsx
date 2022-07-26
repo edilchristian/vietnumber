@@ -10,14 +10,13 @@ const styles = {
     fontSize: '17px'
   },
   h1cont: {
-    padding: '30px',
     fontFamily: 'times',
-    fontSize: '33px'
+    fontSize: '30px'
   },
   h2cont: {
     color: 'red',
     fontFamily: 'didot',
-    marginBottom: '120px'
+    marginBottom: '60px'
   },
   h3cont: {
     color: 'white',
@@ -29,6 +28,9 @@ const styles = {
     marginBottom: '120px',
     backgroundColor: 'white',
     padding: '30px'
+  },
+  stars: {
+    fontSize: '17px'
   }
 }
 
@@ -37,9 +39,15 @@ const styles = {
 const App = () => (
   <React.StrictMode>
     <div style={styles.overall}>
+      <h3 style={styles.stars}>
+         * * * * * * * * * * * * * * * * * * * *
+      </h3>
       <h1 style={styles.h1cont}>
-        * * * V I E T N U M B E R * * *
+         V I E T N U M B E R
       </h1>
+      <h3 style={styles.stars}>
+         * * * * * * * * * * * * * * * * * * * *
+      </h3>
       <h2 style={styles.h2cont}> 
         Created by Edil
       </h2>
