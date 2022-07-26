@@ -25,7 +25,7 @@ const styles = {
   },
   overall: {
     marginTop: '120px',
-    marginBottom: '120px',
+    marginBottom: '30px',
     backgroundColor: 'white',
     padding: '30px'
   },
