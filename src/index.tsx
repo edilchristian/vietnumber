@@ -38,13 +38,13 @@ const App = () => (
   <React.StrictMode>
     <div style={styles.overall}>
       <h3 style={styles.stars}>
-         * * * * * * * * * * * * * * * * * * * * * *
+         * * * * * * * * * * * * * * * * * * * * *
       </h3>
       <h1 style={styles.titlebar}>
          V I E T N U M B E R
       </h1>
       <h3 style={styles.stars}>
-         * * * * * * * * * * * * * * * * * * * * * *
+         * * * * * * * * * * * * * * * * * * * * *
       </h3>
       <div style={styles.explaining}>
         <h2> Converting English numbers into Vietnamese words</h2>
