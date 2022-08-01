@@ -28,7 +28,7 @@ export default class ReadNumber extends React.Component<any, State> {
           onChange={this.handleNumberChange}
         />
         {(!modified || !number || number.startsWith('-')) && (
-          <h2>Enter a positive number in the box above </h2>
+          <h4>Enter a positive number in the box above </h4>
         )}
         {modified && number && !number.startsWith('-') && (
           <h2>{readNumber(number)}</h2>
